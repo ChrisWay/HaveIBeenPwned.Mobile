@@ -15,7 +15,7 @@ namespace HaveIBeenPwned.Mobile.WinPhone
         {
             return new Core.App();
         }
-		
+
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();

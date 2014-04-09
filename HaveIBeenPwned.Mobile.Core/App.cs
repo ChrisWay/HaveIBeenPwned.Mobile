@@ -10,7 +10,7 @@ namespace HaveIBeenPwned.Mobile.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-				
+
             RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }
