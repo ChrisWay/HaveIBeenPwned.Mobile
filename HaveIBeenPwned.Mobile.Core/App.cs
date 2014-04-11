@@ -1,4 +1,6 @@
+using Cirrious.CrossCore;
 using Cirrious.CrossCore.IoC;
+using HaveIBeenPwned.Mobile.Core.Services;
 
 namespace HaveIBeenPwned.Mobile.Core
 {
@@ -11,6 +13,7 @@ namespace HaveIBeenPwned.Mobile.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+            Mvx.RegisterType(HttpClientFactory.Get);
             RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }

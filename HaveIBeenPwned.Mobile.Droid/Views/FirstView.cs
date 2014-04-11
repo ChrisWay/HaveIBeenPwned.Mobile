@@ -4,7 +4,7 @@ using Cirrious.MvvmCross.Droid.Views;
 
 namespace HaveIBeenPwned.Mobile.Droid.Views
 {
-    [Activity(Label = "View for FirstViewModel")]
+    [Activity(Label = "Have I Been Pwned")]
     public class FirstView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
